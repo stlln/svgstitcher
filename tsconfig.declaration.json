@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "outFile": "build/index.d.ts"
+  },
+  "include": [
+    "src/node.ts"
+  ]
+}
